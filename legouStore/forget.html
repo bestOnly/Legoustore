@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: #eee;
+        opacity: 0.5;
+    }
+    .center{
+        text-align: center;
+        width: 600px;
+        height: 500px;
+        /* margin: 100px auto; */
+        background-color: #fff;
+        /* line-height: 500px; */
+        position: relative;
+        overflow: hidden;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 100px auto;
+    }
+    .center h1{
+        font-size: 50px;
+        position: absolute;
+        top: 0;
+        left: 250px;
+    }
+    i{
+        color: red;
+        font-style: normal;
+    }
+    .answer{
+        position: absolute;
+        left: 260px;
+        top: 190px;
+    }
+    .loc{
+        font-size: 40px;
+        position: absolute;
+        left: 300px;
+        bottom: 250px;
+    }
+</style>
+
+<body>
+
+
+<div class="center">
+    <h1 class="forget">忘记密码？</h1>
+    <h2 class="answer">忘了就忘了吧！</h2>
+     <br>
+    <div class="loc">还有<i id="time">3</i>秒回到首页</div>
+</div>
+
+
+<script src="./js/jquery.min.js"></script>
+<script>
+     var timeId = null;
+     var index = 3
+     timeId = setInterval(function(){
+           index--;
+           document.querySelector('#time').innerHTML = index;
+           if(index <=0){
+               clearInterval(timeId);
+               location.href= 'login.html';
+           }
+     },1000)
+
+     $('.forget').animate({left: -300},3000);
+     $('.answer').animate({top: -300},3000);
+    //  $('.loc').animate({bottom: 300,
+    //                top:-500
+    //             }
+    //  ,3000);
+     $('.center').animate({
+                          top: -200,
+                          width:1600,
+                          height: 1000,
+                          opacity: 0.5
+    },3500)
+
+
+</script>
+</body>
+</html>

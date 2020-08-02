@@ -1,0 +1,42 @@
+/* img { border: 0;}
+.ck-slide ul { margin: 0; padding: 0; list-style-type: none;} */
+
+.ck-slide-wrapper img{height: 451px;}
+.ck-slide { position: relative; overflow: hidden; width: 1200px;height: 451px;}
+.ck-slide ul.ck-slide-wrapper { position: absolute; top: 0; left: 80px; z-index: 1; }
+.ck-slide ul.ck-slide-wrapper li { position: absolute;}
+.ck-slide .ck-prev, .ck-slide .ck-next { position: absolute; top: 50%; z-index: 2; width: 35px; height: 70px; margin-top: -35px; border-radius: 3px; opacity: .15; background: red; text-indent: -9999px; background-repeat: no-repeat; transition: opacity .2s linear 0s;}
+.ck-slide .ck-prev { left: 230px; background: url(../img/arrow-left.png) #000 50% no-repeat;}
+.ck-slide .ck-next { right: 0px; background: url(../img/arrow-right.png) #000 50% no-repeat;}
+.ck-slidebox { position: absolute; left: 50%; bottom: 4px; z-index: 30;margin-left: 50px !important;}
+/* .ck-slidebox ul { height: 20px; padding: 0 4px; border-radius: 8px; background: rgba(0,0,0,0.5);} */
+.ck-slidebox ul li { float: left; height: 12px; margin: 4px 4px;}
+.ck-slidebox ul li em { display: block; width: 30px; height: 7px; border-radius: 0; background-color: #fff; text-indent: -9999px; cursor: pointer;opacity: 0.8;}
+.ck-slidebox ul li.current em { background-color: #f89857;}
+.ck-slidebox ul li em:hover { background-color: #fe6500;}
+
+#first {
+    margin-top: -35px;
+}
+
+/* 以下自己定义的图片高度 */
+#slide .ck-slide-wrapper  li img{
+    width: 455px;
+    height: 300px;
+}
+#slide .ck-slide { position: relative; overflow: hidden; width: 455px;height: 300px;}
+#slide .ck-slide #slide-pic.ck-slide-wrapper { position: absolute; top: 0; left: 0; z-index: 1; }
+#slide .ck-slide #slide-pic.ck-slide-wrapper li { position: absolute;}
+#slide .ck-slide .ck-prev, .ck-slide .ck-next { position: absolute; top: 50%; z-index: 555; width: 35px; height: 70px; margin-top: -115px; border-radius: 3px; opacity: .15; text-indent: -9999px; background-repeat: no-repeat; transition: opacity .2s linear 0s;}
+/* #slide .ck-slide .ck-prev { left: 0px; background: url(../img/arrow-left.png) #000 50% no-repeat;} */
+#slide .ck-slide .ck-next { right: 0px; background: url(../img/arrow-right.png) #000 50% no-repeat;}
+#slide .ck-slidebox { position: absolute; left: 50%; bottom: 4px; z-index: 30;margin-left: 50px;}
+/* .ck-slidebox ul { height: 20px; padding: 0 4px; border-radius: 8px; background: rgba(0,0,0,0.5);} */
+#slide .ck-slidebox ul li { float: left; height: 12px; margin: 4px 4px;}
+#slide .ck-slidebox ul li em { display: block; width: 12px; height: 12px; border-radius: 100%; background-color: #fff; text-indent: -9999px; cursor: pointer;opacity: 0.8;}
+#slide .ck-slidebox ul li.current em { background-color: #fe6500;}
+#slide .ck-slidebox ul li em:hover { background-color: #fe6500;}
+
+#slide-pic.ck-slide-wrapper { position: absolute; top: 0; left: 0; z-index: 1; }
+
+#prev{ left: 0px; margin-top: -112px; background: url(../img/arrow-left.png) #000 50% no-repeat;}

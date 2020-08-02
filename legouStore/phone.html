@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./js/jquery.min.js"></script>
+</head>
+<style>
+    .box{
+        position: relative;
+    }
+    img{
+        position: absolute;
+    }
+    .pic1{
+        top: 30px;
+        left: 30px;
+    }
+    .pic2{
+        right: 30px;
+        top:30px;
+    }
+    .pic3{
+        left: 30px;
+        bottom: -70px;
+    }
+    .pic5{
+        right: 30px;
+        bottom: -90px;
+    }
+    .pic6{
+        width: 1px;
+        top: 160px;
+        left: 80px;
+        opacity: 0.2;
+    }
+    .pic8{
+        width: 1px;
+        top: 250px;
+        right: 80px;
+        opacity: 0.2;
+    }
+    .pic7{
+        width: 1px;
+        height: 1px;
+        /* transform: rotateX(50deg); */
+        top: 100px;
+        left: 50%;
+        margin-left: -300px;
+    }
+    .num{
+        font-style: 50px;
+        color: red;
+    }
+</style>
+<body>
+    <!-- <div class="box"> -->
+         <img src="./img/6.jpg" class="pic1">
+         <img src="./img/7.jpg" class="pic2">
+         <img src="./img/8.jpg"class="pic3">
+         <img src="./img/10.jpg" class="pic5">
+          <img src="./img/11.jpeg" class="pic6">
+          <img src="./img/13.PNG" class="pic8">
+          <img src="./img/12.jpeg" class="pic7">
+        <div class="num"></div>
+     <!-- </div> -->
+
+    <script>
+        $('.pic1').animate({left:-830},3000);
+        $('.pic2').animate({right:-830},2000);
+        $('.pic3').animate({left:-830},2000);
+        $('.pic5').animate({right:-830},3000);
+        $('.pic6 , .pic8').animate({width: 600 ,
+              opacity:1 },3000,function(){
+        $('.pic6 ').animate({width: 1 ,
+              opacity:0.2 ,left:-800, top:600
+                          },3000) ,
+        $('.pic8 ').animate({width: 1 ,
+              opacity:0.2 ,right:-800, top:600
+                          },3000),
+        $('.pic7').animate({ width: 600 ,height : 500,
+                            opacity : 1
+         },3000 ,function(){
+            $(this).animate({ left: -1500 ,
+                            //   height : 1,
+                            opacity : 0.1},2000)
+                       })
+                 });
+       
+
+
+         var index =6;
+         setInterval(function(){
+             index--;
+             if(index <=0){
+                 location.href ='index.html';
+             }
+             var text = document.querySelector('.num');
+             text.innerHTML(index);
+         },1000)
+
+    //     $('.pic7').rotate({
+    //         on: {
+    //              mouseover : function(){
+    //                $(this).rotate({animateTo : 180 });
+    //          },
+    //          mouseout : function(){
+    //                $(this).rotate({animateTo : 0 });
+    //         }
+    //     }
+    //  })           
+                          
+    </script>
+</body>
+</html>

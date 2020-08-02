@@ -1,0 +1,193 @@
+
+.nav-wrapper{
+    margin-bottom: 3px;
+}
+.shoppingcart{
+    /* height: 800px; */
+    background-color: #f4f4f4;
+    padding: 30px 0 ;
+}
+.out-box{
+    /* height: 1800px; */
+    background-color: #fff;
+}
+.goods-num{
+    width: 1155px;
+    height: 48px;
+    border-bottom: 2px solid #ccc;
+    padding-left : 25px;
+    margin: 0 auto;
+}
+.font16{
+    font-size: 16px;
+}
+.red{
+    color: red;
+}
+.font16{
+    font-size: 16px;
+    font-weight: 900;
+}
+.lh{
+    line-height: 20px;
+}
+.leftTxt{
+    line-height: 48px;
+}
+.leftTxt i{
+    margin-right: 44px;
+}
+.rightTxt span{
+    font-size: 12px;
+    line-height: 48px;
+}
+.rightTxt a{
+    display: inline-block;
+    width: 75px;
+    height: 20px;
+    margin:15px 25px 0 34px;
+    background-color: #ff9c00;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+}
+.enjoy{
+    margin: 10px 0 10px 30px;
+}
+.update-goods a {
+    margin-left: 40px;
+}
+.toPay .selected{
+    margin-right: 60px;
+}
+.toPay a {
+    display: inline-block;
+    width: 68px;
+    height: 22px;
+    background-color: #f00;
+    margin: 0 35px;
+    text-align: center;
+    line-height: 22px;
+    color: #fff;
+}
+.toPay a:hover{
+    background-color: rgb(218, 38, 38);
+}
+.storeName{
+    margin: 18px 0 0 30px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 12px;
+}
+.storeName label{
+    font-size: 14px;
+    font-weight: 900;
+}
+.storeName a{
+    display:inline-block ;
+    width: 51px;
+    height: 15px;
+    background-color: rgb(78, 200, 252);
+    color: #fff;
+    margin: 0 10px 0 24px;
+}
+
+.goodsBox{
+    margin: 15px 0 50px 30px;
+}
+.goodsBox li{
+    float: left;
+}
+.goodsBox img:hover{
+   opacity: 0.8;
+}
+.goodsBox li input[type='checkbox']{
+    margin: 40px 25px 0 25px;
+}
+.goodsBox .text h2,.text span{
+    margin: 10px 0 0 15px;
+    font-weight: 900;
+}
+.text span{
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    margin-top: 38px;
+    text-align: center;
+    color: #fff;
+}
+.kinds{
+    margin:25px 0 0 57px ;
+}
+.kinds p {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.goodsPrice{
+    margin: 23px 0 0 70px;
+}
+.goodsPrice p , .AllPrice p{
+    font-size: 18px;
+    color: #f00;
+    margin-bottom: 18px;
+}
+.iptNum{
+    margin: 35px 0 0 60px;
+    width: 98px;
+    height: 30px;
+}
+.iptNum a{
+    display: inline-block;
+    width: 20px;
+    height: 40px;
+    text-align: center;
+    font-size: 34px;
+    line-height: 40px;
+    cursor: pointer;
+    user-select: none;
+}
+.iptNum input{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+    outline: 0;
+    margin: 0 5px;
+
+}
+.AllPrice{
+    margin: 40px 0 0 50px;
+}
+.AllPrice p{
+    font-weight: 900;
+}
+
+.update{
+    margin: 15px 0 0 70px;
+}
+.update p{
+    margin-bottom: 3px;
+}
+.ads-pics{
+    margin-left: 26px;
+}
+.ads-pics h2{
+    font-size: 18px;
+    font-weight: 900;
+}
+.ads-pics ul{
+    margin-top: 35px;
+}
+.ads-pics li{
+    float: left;
+    margin-right: 20px;
+}
+.ads-pics li span{
+    font-size: 12px;
+}
+.ads-pics li:hover{
+    opacity: 0.8;
+}
+
+
+.font20{
+    font-size: 20px;
+}

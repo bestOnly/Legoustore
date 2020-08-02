@@ -1,0 +1,445 @@
+
+
+
+.nav-wrapper{
+    margin-bottom: 3px;
+}
+.getGoods-box{
+    width: 100%;
+    background-color: #f4f4f4;
+    padding: 30px 0;
+}
+.getGoods{
+    width: 1160px;
+    padding: 20px;
+    background-color: #fff;
+}
+.getGoods  .steps{
+    font-size: 18px;
+    font-weight: bold;
+}
+.getGoods  .steps span{
+    margin-left: 80px;
+}
+.toline{
+    width: 500px;
+    height: 2px;
+    background-color: #ccc;
+    margin: 50px 20px 0 0;
+    position: relative;
+
+}
+.toline ul{
+    width: 530px;
+    position: absolute;
+    top: -25px;
+    left: -12px;
+    padding-right: 15px;
+}
+.toline ul li {
+    float: left;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: 900;
+    background-color: #fff;
+    cursor: pointer;
+}
+.toline ul li:not(:last-child){
+    margin-right:105px;
+
+}
+
+.location{
+    font-weight: 900;
+    margin: 0 auto ;
+    margin-top: 50px;
+    padding-bottom: 15px;
+    width: 1150px;
+    border-bottom: 1px solid #ccc;
+}
+.location .manage a{
+    margin-left: 15px;
+}
+.location .manage a i{
+   font-family: 'icomoon';
+}
+.select-loc{
+    width: 1150px;
+    margin-left: 4px;
+}
+.select-loc li{
+    float: left;
+    width: 250px;
+    height: 130px;
+    /* background-color: turquoise; */
+    border: 1px dashed #ccc;
+    padding: 9px;
+}
+.select-loc ul{
+    margin: 20px 0 0 1px;
+}
+.select-loc li:not(:last-child){
+    margin-right: 23px;
+}
+.select-loc li p{
+    margin: 10px 0;
+}
+.select-loc li .loc{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.select-loc li:hover{
+   outline: 2px dashed #333;
+   border-color: #fff;
+   cursor: pointer;
+}
+.confirm{
+    width: 1150px;
+    padding-bottom: 10px;
+    margin: 20px 0 5px 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+/* 中间商品导入 */
+
+.storeName{
+    margin: 18px 0 0 3px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 12px;
+}
+.storeName label{
+    font-size: 14px;
+    font-weight: 900;
+}
+.storeName a{
+    display:inline-block ;
+    width: 51px;
+    height: 15px;
+    background-color: rgb(78, 200, 252);
+    color: #fff;
+    margin: 0 10px 0 24px;
+}
+
+.goodsBox{
+    margin: 15px 0 25px 2px;
+}
+.goodsBox li{
+    float: left;
+}
+.goodsBox img:hover{
+   opacity: 0.8;
+}
+.goodsBox li input[type='checkbox']{
+    margin: 40px 25px 0 25px;
+}
+.goodsBox .title-text h2,.title-textt span{
+    margin: 10px 0 0 15px;
+    font-weight: 900;
+}
+.title-text span{
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    margin-top: 38px;
+    text-align: center;
+    color: #fff;
+}
+.kinds{
+    margin:25px 0 0 57px ;
+}
+.kinds p {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.goodsPrice{
+    margin: 23px 0 0 109px;
+}
+.goodsPrice .money{
+    font-size: 18px;
+    font-weight: 900;
+    color: #f00;
+    margin-bottom: 18px;
+}
+.iptNum{
+    margin: 35px 0 0 109px;
+    width: 98px;
+    height: 30px;
+}
+.iptNum a{
+    display: inline-block;
+    width: 20px;
+    height: 40px;
+    /* border: 1px solid #ccc; */
+    text-align: center;
+    font-size: 34px;
+    line-height: 40px;
+}
+.iptNum .addNum{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+    outline: 0;
+    margin: 0 5px;
+
+}
+.update{
+    margin: 50px 0 0 120px;
+}
+.goodsBox ul{
+    margin-bottom: 20px;
+}
+.goodsBox input{
+    width: 400px;
+    height: 30px;
+    border: 1px solid #ccc;
+    outline: 0;
+}
+.goodsBox{
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+}
+.deliver{
+    text-align: right;
+}
+.deliver p{
+    margin-bottom: 15px;
+}
+.deliver label{
+    margin-right: 10px;
+}
+#submit{
+    display: block;
+    width: 140px;
+    height: 40px;
+    background-color: #f60;
+    border: 0;
+    outline: 0;
+    margin-top: 10px;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 260px;
+}
+#submit:hover{
+    cursor: pointer;
+    background-color: rgb(255, 145, 71);
+}
+
+/* 四个页面的选项卡 */
+.payBox{
+    display: none;
+}
+.addContent{
+    display: none;
+}
+.confirm{
+    display: none;
+}
+.pay-page{
+    display: none;
+}
+.current{
+    display: block;
+}
+
+/* 第二页面 */
+.pay-list{
+    padding: 30px;
+    height: 100px;
+    border-bottom: 1px solid #ccc;
+}
+.pay-list li{
+     float: left;
+     height: 100px;
+     padding-left: 3px;
+}
+.pay-msg p{
+    text-align: right;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+
+
+
+/* 第三页面 */
+.goods-box{
+    width: 1150px;
+    margin: 30px 0 10px 0;
+    /* border-bottom: 1px solid #ccc; */
+}
+.goods-box h2{
+    margin: 20px 0;
+}
+.goods-box>p{
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: right;
+}
+.goods-box>p i{
+    color: red;
+    font-weight: 900;
+}
+table{
+    width: 1150px;
+    height: 150px;
+    border: 1px solid #ccc;
+}
+table tr td:first-child{
+    width: 440px;
+    height: 20px;
+    line-height: 50px;
+}
+table tr:first-child{
+    border: 1px solid #fff;
+    text-align: center;
+}
+table tr.first span{
+    margin-right: 50px;
+}
+
+table tr td{
+    text-align: center;
+    border: 1px solid #ccc;
+}
+.first span{ 
+    margin-left: 20px;
+}
+.first .left{
+    text-align: left;
+}
+.msg p{
+    margin: 15px 30px;
+    font-size: 14px;
+}
+.submit{
+    width: 80px;
+    height: 30px;
+    background-color: orange;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+    color: #fff;
+}
+
+
+
+
+
+/* 第三页面 */
+.top {
+    width: 1150px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+.content-box{
+    padding: 15px;
+    margin: 10px 0 20px 0;
+    /* height: 400px; */
+    border-bottom: 1px solid #ccc;
+
+}
+.left-box{
+    width: 170px;
+}
+.left-box img{
+    width: 170px;
+    height: 180px;
+}
+.middle-box{
+    width: 600px;
+    margin-left: 20px;
+}
+.middle-box a{
+    float: left;
+    display: block;
+    width: 100px;
+    height: 40px;
+    background-color: #f60;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.openOrmiss{
+    margin-top: 20px;
+    float: right;
+}
+.openOrmiss input{
+    margin-left:20px;
+}
+.text{
+    width: 600px;
+    height: 170px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    outline: 0;
+}
+.right-box{
+    width: 320px;
+    height: 200px;
+    margin-left: 10px;
+}
+.submit{
+    width: 200px;
+    height: 50px;
+    background-color: #f60;
+    border: 0;
+    outline: 0;
+    margin-top: 20px;
+    margin-left: 500px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+.left-text{
+    font-size: 14px;
+    line-height: 50px;
+}
+.right-pic{
+    width: 200px;
+    height: 200px;
+}
+.star{
+    position: relative;
+}
+.star img{
+    width: 200px;
+    height: 36px;
+    margin-bottom: 20px;
+
+}
+.star .top{
+    position: absolute;
+    top: -20px;
+    left: 0;
+}
+
+
+.ads-pics{
+    margin: 50px 0 0 16px;
+}
+.ads-pics h2{
+    font-size: 18px;
+    font-weight: 900;
+}
+.ads-pics ul{
+    margin-top: 35px;
+}
+.ads-pics li{
+    float: left;
+    margin-right: 15px;
+}
+.ads-pics li span{
+    font-size: 12px;
+}
+.ads-pics li:hover{
+    opacity: 0.8;
+}
